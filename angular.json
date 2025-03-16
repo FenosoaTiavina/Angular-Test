@@ -17,6 +17,10 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "allowedCommonJsDependencies": [
+              "moment",
+              "bezier-easing"
+            ],
             "outputPath": {
               "base": "dist/meanfd"
             },
